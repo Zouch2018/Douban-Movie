@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <title>豆瓣电影Top250</title>
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_649035_fveb0rexkml323xr.css">
     <link rel="stylesheet" href="./css/common.css">
@@ -258,7 +258,6 @@
               $.ajax({
                   url: 'https://api.douban.com/v2/movie/us_box',
                   type: 'GET',
-
                   dataType:'jsonp'
               }).done(function(ret){
                   console.log(ret);
